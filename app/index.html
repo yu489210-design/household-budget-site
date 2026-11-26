@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hearth &amp; Ledger — Household Budget</title>
+<meta name="description" content="Hearth & Ledger: one household's budget, bills, savings goals and reports — all in one place, working offline.">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#/"><span class="brand-mark">⌂</span> Hearth &amp; Ledger</a>
+  <nav class="nav" aria-label="Main navigation">
+    <a href="#/">Dashboard</a>
+    <a href="#/transactions">Transactions</a>
+    <a href="#/budgets">Budgets</a>
+    <a href="#/bills">Bills</a>
+    <a href="#/goals">Goals</a>
+    <a href="#/reports">Reports</a>
+  </nav>
+  <span class="month-tag">November 2026</span>
+</header>
+<main id="app" class="page"></main>
+<footer class="foot">
+  <p><strong>Hearth &amp; Ledger</strong> — the Marlowe household's budget. Figures are demo data for November 2026, stored only in this browser. <a href="#/" id="reset-demo">Reset demo data</a></p>
+  <p class="muted">Built as a single static site: no accounts, no tracking, no network requests. Works offline, on desktop and on a phone.</p>
+</footer>
+<script type="module" src="./main.js"></script>
+</body>
+</html>
